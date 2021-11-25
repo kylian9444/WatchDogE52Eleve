@@ -37,7 +37,7 @@ socket.on('turing/thermo/moyenne', function(msg) {
 socket.on('turing/porte/etat', function(msg) {
     var elemValeur = document.getElementById('gammavalue');
 
-    if(msg === 0){
+    if(msg == 0){
 
         elemValeur.textContent = "Fermée";
         elemValeur.setAttribute("class","btn btn-success disabled");
