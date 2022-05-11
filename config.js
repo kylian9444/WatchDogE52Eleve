@@ -1,11 +1,11 @@
-const broker = "http://172.16.12.47";
+const broker = "";
 
-const topic1 = "turing/thermo/mesure";
-const topic2 = "turing/thermo/moyenne";
-const topic3 = "turing/porte/etat";
-const topic4 = "torvalds/thermo/mesure";
-const topic5 = "torvalds/thermo/moyenne";
-const topic6 = "torvalds/porte/etat";
+const topic1 = "";
+const topic2 = "";
+const topic3 = "";
+const topic4 = "";
+const topic5 = "";
+const topic6 = "";
 
 
 module.exports.laConfig = {
